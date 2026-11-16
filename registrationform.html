@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body{
+     font-family: Arial;
+     background-color: lightblue;
+    }
+.form{
+      width: 350px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+     }
+h2{
+   text-align: center;
+   color: blue;
+  }
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+button{
+       width: 100%;
+       padding: 10px;
+       background-color: blue;
+       color: white;
+       border: none;
+       margin-top: 10px;
+      }
+button:hover{
+          background-color: darkblue;
+         }
+</style>
+</head>
+<body>
+<div class="form">
+<h2>Registration Form</h2>
+Name:
+    <input type="text">
+Phone Number:
+    <input type="tel">
+Email:
+    <input type="email">
+Password:
+    <input type="password">
+Address:
+    <textarea></textarea>
+Date of Birth:
+    <input type="date">
+Gender:<br>
+    <input type="radio" name="gender" style="width:auto"> Male
+    <input type="radio" name="gender" style="width:auto"> Female
+    <input type="radio" name="gender" style="width:auto"> Other
+<br>
+Course:
+    <select>
+        <option>Select Course</option>
+        <option>BCA</option>
+        <option>BBA</option>
+        <option>BCOM</option>
+        <option>MCA</option>
+        <option>MBA</option>
+    </select>
+<button type="submit">Register</button>
+<button type="reset">Reset</button>
+</div>
+</body>
+</html>
